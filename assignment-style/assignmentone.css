@@ -273,4 +273,53 @@ opacity: 0.7;
 width: 206.4px;
 height: 187.32px;
 }
+/* web development section style end here */
 
+
+/* inpiration section style strat here */
+.inspiration-conteiner{
+width: 1140px;
+height: 777px;
+margin: 0 auto;
+border-radius: 16px;
+background: url(Jhankar);
+}
+
+.inspiration-title{
+width: 852px;
+height: 39px;
+color: rgb(13, 19, 33);
+font-size: 32px;
+font-weight: 800;
+text-align: center;
+margin-top: 40px;
+margin-left: 65px;
+}
+
+.inspiration-description{
+width: 852px;
+height: 52px;
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+margin-left: 65px;
+}
+
+.inspiration-video{
+  width: 1076px;
+  height: 550px;
+border-radius: 16px;
+margin-top: 30px;
+margin-left: 30px;
+
+}
+
+.video-border{
+width: 1140px;
+height: 614px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+
+}
