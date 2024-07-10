@@ -293,7 +293,7 @@ font-size: 32px;
 font-weight: 800;
 text-align: center;
 margin-top: 40px;
-margin-left: 65px;
+margin-left: 80px;
 }
 
 .inspiration-description{
@@ -303,7 +303,7 @@ color: rgb(13, 19, 33);
 font-size: 16px;
 font-weight: 400;
 text-align: center;
-margin-left: 65px;
+margin-left: 80px;
 }
 
 .inspiration-video{
@@ -321,5 +321,99 @@ height: 614px;
 box-sizing: border-box;
 border: 1px solid rgba(13, 19, 33, 0.2);
 border-radius: 16px;
+}
+/* inapiration section style end here */
 
+
+
+/* target section style start here */
+.target-conteiner{
+width: 1140px;
+height: 463px;
+margin: 0 auto;
+}
+
+.card-conteiner{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+.target-title{
+width: 852px;
+height: 39px;
+margin-left: 80px;
+color: rgb(13, 19, 33);
+font-size: 32px;
+font-weight: 800;
+text-align: center;
+}
+
+.target-description{
+width: 852px;
+height: 52px;
+margin-left: 80px;
+margin-bottom: 30px;
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+}
+
+.html-one{
+width: 364px;
+height: 300px;
+padding: 40px;
+border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+}
+
+.css-two{
+width: 364px;
+height: 300px;
+padding: 40px;
+border-radius: 16px;
+background: rgba(0, 76, 232, 0.05);
+}
+
+.java-three{
+width: 364px;
+height: 300px;
+padding: 40px;
+border-radius: 16px;
+background: rgba(255, 223, 0, 0.05);
+}
+
+/* shared style */
+
+.card-title{
+width: 284px;
+height: 36px;
+margin: 8px 0px;
+color: rgb(13, 19, 33);
+font-size: 24px;
+font-weight: 800;
+text-align: left;
+}
+
+.card-description{
+width: 284px;
+height: 52px;
+margin: 8px 0px;
+margin-bottom: 50px;
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+text-align: left;
+}
+
+.card-button{
+width: 284px;
+height: 20px;
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 700;
+text-align: left;
+text-decoration-line: underline;
 }
