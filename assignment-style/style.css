@@ -412,6 +412,82 @@ font-weight: 700;
 text-align: left;
 text-decoration-line: underline;
 }
-
 /* shared style end here */
+
+/* support section style start here */
+
+.support-conteiner{
+background-image: url(../assets/handshake.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+margin: 0 auto;
+margin-top: 100px;
+width: 1140px;
+height: 314px;
+border-radius: 16px;
+background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+}
+
+.support-content{
+width: 730px;
+height: 104px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.support-title{
+width: 350px;
+height: 36px;
+margin-left: 100px;
+color: rgb(255, 255, 255);
+font-size: 32px;
+font-weight: 700;
+text-align: center;
+padding-left: 250px;
+padding-top: 80px;
+}
+
+.support-description{
+width: 606px;
+height: 52px;
+margin-left: 400px;
+color: rgb(255, 255, 255);
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+opacity: 0.7;
+}
+
+.support-btn-conteiner{
+display: flex;
+align-items: center;
+padding-top: 100px;
+padding-left: 230px;
+gap: 5px;
+
+}
+
+.feedback-btn{
+width: 548px;
+height: 57px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255)
+}
+.submit-btn{
+width: 120px;
+height: 58px;
+border-radius: 8px;
+background: rgb(255, 255, 255);
+color: rgb(13, 19, 33);
+font-size: 20px;
+font-weight: 600;
+text-align: center;
+}
+
+
 
